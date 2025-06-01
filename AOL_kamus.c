@@ -52,11 +52,18 @@ void insertKamus(const char *key, const char *value){
         if(strcmp(Kamus[index].key, key) == 0){
             // Jika key sudah ada, update value
             strcpy(Kamus[index].kata, value);
+            Kamus[index].deleted = 0;
             return;
         }
         index = (index + 1) % DICT_SIZE;
-    }
 
+        // Cek jika hash table penuh
+        if(index == startIndex){
+            printf("Hash table penuh!\n");
+            return;
+        }
+    }
+    
 
     strcpy(Kamus[index].kata, value);
     strcpy(Kamus[index].key, key);
@@ -79,11 +86,6 @@ const char *searchKamus(const char *key){
     return NULL;
 }
 
-void compareEntries(const void *a, const void *b){
-    entry *entryA = (entry *)a;
-    entry *entryB = (entry *)b;
-    return strcmp(entryA->key, entryB->key);
-}
 
 //fungsi search
 void searchAndPrint(const char *key){
@@ -182,3 +184,4 @@ int main(){
 }
 
 
+ 
