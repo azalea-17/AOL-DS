@@ -292,7 +292,7 @@ int main() {
             displayMenu(tempDict);
             printf(">> ");
             scanf("%d", &choice);
-            getchar(); // penting agar ENTER tidak tertelan
+            getchar(); 
         } while (choice < 1 || choice > 6);
 
         switch (choice) {
