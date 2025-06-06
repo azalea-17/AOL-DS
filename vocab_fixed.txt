@@ -91,41 +91,41 @@ beku frozen
 bising noisy
 buru-buru hurry
 
-cinta	love
-cermin	mirror
-cuaca	weather
-cuci	wash
-cerdas	smart 
-coba	try
-cakar	claw
-cabang	branch
-cacing	worm
-candu	addiction 
-canda	joke
-cemas	anxious 
+cinta love
+cermin mirror
+cuaca weather
+cuci wash
+cerdas smart 
+coba try
+cakar claw
+cabang branch
+cacing worm
+candu addiction 
+canda joke
+cemas anxious 
 cemburu	jealous
-cetak	print
-cepat	fast 
-cium	kiss 
+cetak print
+cepat fast 
+cium kiss 
 cek	check
-celana	pants 
-cuka	vinegar
-cekik	choke
-cahaya	light
-cari	search 
-campur	mix
+celana pants 
+cuka vinegar
+cekik choke
+cahaya light
+cari search 
+campur mix
 cat	paint
-cakar	claw
+cakar claw
 cangkul	hoe 
-cincin	ring 
-cacat	defect 
+cincin ring 
+cacat defect 
 cangkir	cup
-cendekia	scholar
-candi	temple
-capek	tired
-camp	camp
-ciuman	kiss 
-cakrawala	horizon
+cendekia scholar
+candi temple
+capek tired
+camp camp
+ciuman kiss 
+cakrawala horizon
 
 daun leaf
 daging meat
@@ -372,7 +372,6 @@ himpun gather
 hina lowly
 hitung count
 hobi hobby
-hormat respect
 
 ibadah worship
 ibu mother
@@ -722,13 +721,11 @@ oxidasi oxidation
 oase oasis
 obor torch
 
-padi rice plant
 pagar fence
 pahit bitter
 pakaian clothes
 pakai use
 paku nail
-paku payung thumbtack
 paling most
 palu hammer
 panas hot
@@ -808,7 +805,6 @@ rata flat
 ratap lament
 rawan vulnerable
 rawat care
-rawit bird’s eye chili
 rayap termite
 rayu coax
 rebut seize
@@ -864,8 +860,7 @@ sayang love
 sayur vegetable
 sebab cause
 sebatang single
-sebuah a
-secara in a manner
+sebuah a(n)
 sedang while
 sedih sad
 sedikit little
@@ -915,7 +910,6 @@ tas bag
 tasiu chat
 tatap stare
 tawar offer
-tawar menawar bargain
 tawas alum
 tawarikh history
 tebal thick
