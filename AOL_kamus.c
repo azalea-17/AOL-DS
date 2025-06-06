@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <stdbool.h>
 
-#define DICT_SIZE 50
+#define DICT_SIZE 100
 
 typedef struct hashNode {
     char key[20];
@@ -86,7 +86,7 @@ void insertKamus(dict* Dict, const char* key, const char* value) {
         current = current->next;
     }
     if (!current) return;
-
+    
     int index = hashToIndex(tempKey);
     while (current->page[index].key[0] != '\0' && !current->page[index].deleted) {
         if (strcmp(current->page[index].key, tempKey) == 0) {
@@ -274,10 +274,6 @@ void loadFromFile(dict* Dictionary, const char* filename) {
         loaded++;
     }
     fclose(file);
-    system("cls");
-    printf("Berhasil memuat %d data dari %s\n", loaded, filename);
-    printf("\n\nTekan ENTER untuk lanjut...");
-    getchar();
 }
 
 int main() {
@@ -285,9 +281,21 @@ int main() {
     initKamus(&Dictionary);
     loadFromFile(Dictionary, "vocab.txt");
 
+    int pilihMainMenu;
+    do{
+        printf("=======================================\n");
+        printf("KAMUS BAHASA INDONESIA - BAHASA INGGRIS\n");
+        printf("=======================================\n");
+        printf("1. Buka Kamus\n2. Keluar\n>> ");
+        scanf("%d", &pilihMainMenu);
+    }while(pilihMainMenu > 2 || pilihMainMenu < 1);
+
+    if(pilihMainMenu == 2)return 0;
+
     dict* tempDict = Dictionary;
     int choice;
     while (true) {
+        system("cls");
         do {
             displayMenu(tempDict);
             printf(">> ");
