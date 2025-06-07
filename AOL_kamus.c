@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <stdbool.h>
 
-#define DICT_SIZE 100
+#define DICT_SIZE 500
 
 typedef struct hashNode {
     char key[20];
@@ -188,28 +188,39 @@ void printSortedKamus(dict* currentPage) {
     entry entries[DICT_SIZE];
     int count = 0;
     system("cls");
-    printf("------------------------\n");
-    printf("|   KAMUS HASH TABLE   |\n");
-    printf("------------------------\n");
-    printf("HALAMAN : %c\n", currentPage->key);
-    printf("========================\n");
+    printf("---------------------------------------------------------------------------\n");
+    printf("|                            KAMUS HASH TABLE                             |\n");
+    printf("---------------------------------------------------------------------------\n");
+    printf("|HALAMAN : %c                                                              |\n", toupper(currentPage->key));
+    printf("===========================================================================\n");
+
 
     for (int i = 0; i < DICT_SIZE; i++) {
         if (currentPage->page[i].key[0] != '\0' && !currentPage->page[i].deleted) {
             strcpy(entries[count].key, currentPage->page[i].key);
             strcpy(entries[count].kata, currentPage->page[i].kata);
             count++;
+
         }
     }
 
-    qsort(entries, count, sizeof(entry), compareEntries);
+    //qsort(entries, count, sizeof(entry), compareEntries);
     if (count == 0) {
         printf("Halaman ini kosong!\n");
     }
-    for (int i = 0; i < count; i++) {
-        printf("%d. %s -> %s\n", i + 1, entries[i].key, entries[i].kata);
+
+    int iter = (count % 2 == 0) ? count / 2 : count / 2 + 1;
+    for (int i = 0; i < iter; i++) {
+        printf("%-2d. %-12s -> %-15s%-4s", i + 1, entries[i].key, entries[i].kata, "||");
+        if(entries[i + iter].key[0] != '\0')printf("%-2d. %-12s -> %-15s|\n", i + 1 + iter, entries[i + iter].key, entries[i + iter].kata);
+        else printf("\n");
     }
-    printf("========================\n");
+    printf("===========================================================================\n");
+
+    for(int i = 0; i < DICT_SIZE; i++){
+        entries[i].kata[0] = '\0';
+        entries[i].key[0] = '\0';
+    }
 }
 
 void inputKata(dict* Dictionary, dict* currentPage) {
