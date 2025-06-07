@@ -131,7 +131,7 @@ void searchAndPrint(dict* Dict, const char* key) {
     printf("    KAMUS HASH TABLE    \n");
     printf("========================\n");
     if (result != NULL) {
-        printf("HALAMAN : %c\n", tolower(key[0]));
+        printf("HALAMAN : %c\n", toupper(key[0]));
         printf("Ditemukan: %s -> %s\n", key, result);
     } else {
         printf("Key '%s' tidak ditemukan dalam kamus\n", key);
