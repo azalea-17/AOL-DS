@@ -164,7 +164,6 @@ void deleteKamus(dict* Dict, const char* key) {
     while (current->page[index].key[0] != '\0') {
         if (!current->page[index].deleted && strcmp(current->page[index].key, tempKey) == 0) {
             current->page[index].deleted = 1;
-            system("cls");
             printf("Key '%s' telah dihapus\n", key);
             printf("\n\nTekan ENTER untuk balik...");
             getchar();
@@ -264,8 +263,8 @@ void displayMenu(dict* currentPage) {
     printf("1. Tambah kata\n");
     printf("2. Cari kata\n");
     printf("3. Hapus kata\n");
-    printf("4. Halaman Selanjutnya\n");
-    printf("5. Halaman Sebelumnya\n");
+    printf("4. Halaman Sebelumnya\n");
+    printf("5. Halaman Selanjutnya\n");
     printf("6. Keluar\n");
 }
 
@@ -324,15 +323,7 @@ int main() {
             case 3:
                 inputHapus(Dictionary, tempDict);
                 break;
-            case 4:
-                if (tempDict->next) tempDict = tempDict->next;
-                else {
-                    printSortedKamus(tempDict);
-                    printf("Ini halaman terakhir!\n\nTekan ENTER untuk balik...");
-                    getchar();
-                }
-                break;
-            case 5:
+                case 4:
                 if (tempDict->prev) tempDict = tempDict->prev;
                 else {
                     printSortedKamus(tempDict);
@@ -340,6 +331,14 @@ int main() {
                     getchar();
                 }
                 break;
+                case 5:
+                    if (tempDict->next) tempDict = tempDict->next;
+                    else {
+                        printSortedKamus(tempDict);
+                        printf("Ini halaman terakhir!\n\nTekan ENTER untuk balik...");
+                        getchar();
+                    }
+                    break;
             case 6:
                 printf("Terima kasih telah menggunakan Kamus Hash Table!\n");
                 return 0;
