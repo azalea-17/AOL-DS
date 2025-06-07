@@ -41,7 +41,6 @@ arus flow
 arti meaning
 aspek aspect
 asisten assistant
-
 buku book
 baju shirt 
 bunga flower
@@ -90,7 +89,6 @@ bantal pillow
 beku frozen
 bising noisy
 buru-buru hurry
-
 cinta love
 cermin mirror
 cuaca weather
@@ -126,7 +124,6 @@ capek tired
 camp camp
 ciuman kiss 
 cakrawala horizon
-
 daun leaf
 daging meat
 diri self
@@ -174,7 +171,6 @@ desibel decibel
 duri thorn
 digital digital
 domba sheep
-
 elang eagle
 emas gold
 enak delicious
@@ -224,7 +220,6 @@ ekuitas equity
 ekstrak extract
 edukasi education
 ekspatriat expatriate
-
 fakta fact
 film film
 fasilitas facility
@@ -272,7 +267,6 @@ fragment fragment
 freelancer freelancer
 franchise franchise
 formasi formation
-
 gajah elephant
 gadis girl
 gagak crow
@@ -321,7 +315,6 @@ gugur fall
 gugup nervous
 gulet roll
 guna use
-
 habis finished
 habitat habitat
 hadiah gift
@@ -372,7 +365,6 @@ himpun gather
 hina lowly
 hitung count
 hobi hobby
-
 ibadah worship
 ibu mother
 iblis devil
@@ -424,8 +416,7 @@ interpretasi interpretation
 investasi investment
 irama rhythm
 irit thrifty
-
-jabat shake
+abat shake
 jabatan position
 jadwal schedule
 jaga guard
@@ -474,7 +465,6 @@ jesuit jesuit
 jiwa soul
 jin spirit
 jitu accurate
-
 kabar news
 kaca glass
 kacang peanut
@@ -525,7 +515,6 @@ kedua second
 kejar chase
 kekasih lover
 kekuatan strength
-
 labu pumpkin
 laci drawer
 laga match
@@ -551,7 +540,6 @@ lapor report
 larang forbid
 lari run
 latar background
-lauk side dish
 laut sea
 lawan opponent
 lawas old
@@ -576,7 +564,6 @@ lempeng plate
 lengan arm
 lengkap complete
 lengkung curve
-
 macan tiger
 madu honey
 mahal expensive
@@ -590,7 +577,6 @@ malam night
 malas lazy
 malu shy
 mama mom
-mampir stop by
 mampu capable
 manajer manager
 manfaat benefit
@@ -627,7 +613,6 @@ memilih choose
 menang win
 menari dance
 mendalam deep
-
 nabi prophet
 nada tone
 nafas breath
@@ -677,7 +662,6 @@ normal normal
 nonton watch
 nyala flame
 nyaman comfortable
-
 obat medicine
 objek object
 objektif objective
@@ -720,7 +704,6 @@ oven oven
 oxidasi oxidation
 oase oasis
 obor torch
-
 pagar fence
 pahit bitter
 pakaian clothes
@@ -775,12 +758,10 @@ penduduk resident
 pengejar chaser
 pengetahuan knowledge
 penjara prison
-
 raban tambourine
 rabun nearsighted
 radar radar
 radio radio
-rafi high tide
 ragam variety
 ragil young
 rahim womb
@@ -829,7 +810,6 @@ restu blessing
 retak crack
 retas hack
 revolusi revolution
-
 sabah sabah
 sabu meth
 sadar aware
@@ -878,7 +858,6 @@ selesai finished
 selimut blanket
 selip slip
 seluruh entire
-
 tabah patient
 tabir curtain
 tabung tube
@@ -930,7 +909,6 @@ tentara soldier
 tentu sure
 tepi edge
 terang bright
-
 udara air
 udang shrimp
 uji test
@@ -978,9 +956,7 @@ uruskan handle
 usaha effort
 usang old
 usulkan suggest
-utar
 utusan envoy
-
 vaksin vaccine
 valid valid
 varian variant
@@ -994,7 +970,6 @@ visibilitas visibility
 vitamin vitamin 
 vokal vocal
 validasi validation
-
 waktu time
 wakil deputy
 warna color
@@ -1004,10 +979,8 @@ wujud form
 wawancara alert
 wisata tourism
 wirausaha entrepreneurship
-
 xylem xylem
 xilofon xylophone
-
 yakin sure
 yatim orphan
 yayasan foundation
@@ -1020,7 +993,6 @@ yuli july
 yodium iodine
 yogurt yogurt
 yoga yoga
-
 zaman era
 zebra zebra
 zeki intelligent
